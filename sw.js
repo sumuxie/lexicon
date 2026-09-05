@@ -1,7 +1,7 @@
 /* Cache the page on install so the deck opens with no network. Audio is
    cached as each word is first played -- 4 099 files is 39 MB and downloading
    it all up front would make the first visit unusable on mobile data. */
-const SHELL = 'lexicon-shell-202609060150';
+const SHELL = 'lexicon-shell-202609060154';
 const MEDIA = 'lexicon-audio-v1';
 const FILES = ['./', 'index.html', 'manifest.webmanifest',
                'icon-192.png', 'icon-512.png'];
